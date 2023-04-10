@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CP1-WEB/DEV</title>
+</head>
+<body>
+    <h1>
+        Início do programa
+    </h1>
+    <script>
+let nota1 = 7; // valor da primeira nota
+let nota2 = 8; // valor da segunda nota
+let nota3 = 6; // valor da terceira nota
+let nota4 = 5; // valor da quarta nota
+let nota5 = 6; // valor da quinta nota
+let nota6 = 7; // valor da sexta nota
+let nota7 = 9; // valor da sétima nota
+let media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7) / 7; // calcula a média das notas
+
+if (media >= 6) {
+  console.log("Aluno aprovado. Média: " + media.toFixed(2));
+} else {
+  console.log("Aluno reprovado. Média: " + media.toFixed(2));
+}
+    </script>
+</body>
+</html>
