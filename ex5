@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CP1-WEB/DEV</title>
+</head>
+<body>
+    <h1>
+        Início do programa
+    </h1>
+    <script>
+let nomeDeUsuario = "admin"; // nome de usuário cadastrado
+let senha = "1234"; // senha do usuário cadastrado
+let nomeDeUsuarioDigitado = prompt("Digite seu nome de usuário:"); // recebe o nome de usuário digitado pelo usuário
+let senhaDigitada = prompt("Digite sua senha:"); // recebe a senha digitada pelo usuário
+
+if (nomeDeUsuarioDigitado === nomeDeUsuario && senhaDigitada === senha) {
+  console.log("Login realizado com sucesso!");
+} else {
+  console.log("Falha de autenticação. Nome de usuário ou senha incorretos.");
+}
+    </script>
+</body>
+</html>
