@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CP1-WEB/DEV</title>
+</head>
+<body>
+    <h1>
+        Início do programa
+    </h1>
+    <script>
+let peso = 65; // peso em quilogramas
+let altura = 1.75; // altura em metros
+let imc = peso / (altura * altura);
+
+if (imc < 18.5) {
+  console.log("IMC: " + imc.toFixed(2) + " - abaixo do peso");
+} else if (imc >= 18.5 && imc <= 24.9) {
+  console.log("IMC: " + imc.toFixed(2) + " - peso ideal");
+} else {
+  console.log("IMC: " + imc.toFixed(2) + " - acima do peso");
+}
+    </script>
+</body>
+</html>
